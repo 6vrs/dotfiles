@@ -1,0 +1,67 @@
+@import "~/.cache/wal/colors-rofi-dark"
+configuration {
+  display-drun: "Applications:";
+  display-window: "Windows:";
+  drun-display-format: "{name}";
+  font: "JetBrainsMono Nerd Font Medium 9";
+  show-icons: true;
+  icon-theme: "Papirus";
+  modi: "window,run,drun";
+}
+
+window {
+  width: 30%;
+  background-color: @background;
+}
+
+element {
+  padding: 8 12;
+  background-color: transparent;
+  text-color: @normal-foreground;
+}
+
+element selected {
+  text-color: @foreground;
+  background-color: @active-background;
+}
+
+element-text {
+  background-color: transparent;
+  text-color: inherit;
+  vertical-align: 0.5;
+}
+
+element-icon {
+  size: 14;
+  padding: 0 10 0 0;
+  background-color: transparent;
+}
+
+entry {
+  padding: 12;
+  background-color: @background;
+  text-color: @foreground;
+}
+
+inputbar {
+  children: [prompt, entry];
+  background-color: @background;
+}
+
+listview {
+  background-color: @background;
+  columns: 1;
+  lines: 10;
+}
+
+mainbox {
+  children: [inputbar, listview];
+  background-color: @background;
+}
+
+prompt {
+  enabled: true;
+  padding: 12 0 0 12;
+  background-color: @background;
+  text-color: @foreground;
+}
