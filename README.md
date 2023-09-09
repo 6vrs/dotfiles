@@ -3,7 +3,11 @@
 Here are my dotfiles for my [Arch Linux](https://archlinux.org/) system.
 
 ## Showcase
-![Rice](Screenshot.png)
+![Rice](Screenshot.png) 
+
+![Rice](Screenshot2.png)
+
+![Polybar Spotify](Screenshot3.png)
 
 ## Information
 
@@ -15,7 +19,7 @@ Here are my dotfiles for my [Arch Linux](https://archlinux.org/) system.
 - **Shell** - [zsh](https://www.zsh.org/) + [ohmyzsh](https://ohmyz.sh/) + [Starship](https://starship.rs/)
 - **Launcher** - [rofi](https://github.com/davatorium/rofi)
 - **Notification Daemon** - [dunst](https://github.com/dunst-project/dunst)
-- **Lock Screen** [BetterLockScreen](https://github.com/betterlockscreen/betterlockscreen)
+- **Lock Screen** - [BetterLockScreen](https://github.com/betterlockscreen/betterlockscreen)
 - **Font** - [JetBrains Mono Nerd Font](https://archlinux.org/packages/extra/any/ttf-jetbrains-mono-nerd/)
 - **Wallpaper** - [Neon Shallows Recoloured](https://images.wallpapersden.com/image/download/the-neon-shallows-building_bG1rbG6UmZqaraWkpJRnamtlrWZpaWU.jpg)
 
@@ -46,8 +50,3 @@ The audio visualiser bar is done through [cava](https://github.com/karlstav/cava
 
 ### Icons + Themes 
 [lxappearance](https://archlinux.org/packages/extra/x86_64/lxappearance/) used to apply Icon and GTK Themes
-
-## To Do
-
-- [ ] Configure Neovim
-- [ ] Add to showcase
