@@ -206,6 +206,9 @@ bindsym $mod+p exec "rofi -show powermenu -modi powermenu:.config/rofi/powermenu
 # BetterLockScreen
 bindsym $mod+o exec --no-startup-id betterlockscreen -l
 
+# Discord
+bindsym $mod+Shift+d exec --no-startup-id discord 
+
 # ---------------------------
 #
 #         AUTOSTARTS
