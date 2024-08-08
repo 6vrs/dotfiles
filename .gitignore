@@ -20,7 +20,7 @@ cava/*
 !neofetch/
 !picom/
 !/polybar
-!polybar/polybar-vpn-controller
+polybar/polybar-vpn-controller
 
 !rofi/
 !mpd/
