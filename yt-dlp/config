@@ -1,0 +1,7 @@
+# Always extract audio
+-x
+
+--audio-format mp3
+
+# Save all videos in /Music
+-o ~/music/%(title)s.%(ext)s
